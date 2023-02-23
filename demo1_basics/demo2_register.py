@@ -24,7 +24,7 @@ driver.find_element(By.ID, "password_step_input").send_keys("Thatis@12235")
 # Click on radio button - custom
 driver.find_element(By.XPATH, "//input[@value='-1']").click()
 #//label[text()='Custom']
-#Grouping of XPath - (//input[@name='sex'])[3]
+#Grouping of XPath - (//input[@name='sex'])[3] ##
 
 driver.find_element(By.NAME, "websubmit").click()
 
