@@ -27,8 +27,11 @@ select_employees.select_by_visible_text('101 - 500 employees')
 driver.find_element(By.XPATH,"//div[@class='checkbox-ui']").click()
 driver.find_element(By.NAME,'start my free trial').click()
 
+
+Error=driver.find_element(By.XPATH, "//span[contains(@id,'UserPhone')]").text
+Error=driver.find_element(By.XPATH, "//span[contains(text(),'valid phone')]").text
+
+print(Error)
+
 time.sleep(3)
-
-
-
-
+driver.quit()
