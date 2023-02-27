@@ -9,8 +9,8 @@ driver.implicitly_wait(30)
 
 driver.get("https://www.db4free.net/")
 
-#driver.find_element(By.PARTIAL_LINK_TEXT, "phpMyAdmin").click()
-driver.find_element(By.XPATH, "//b[contains(text(),'phpMy')]").click()
+driver.find_element(By.PARTIAL_LINK_TEXT, "phpMyAdmin").click()
+#driver.find_element(By.XPATH, "//b[contains(text(),'phpMy')]").click()
 
 #print(driver.window_handles[0])
 
