@@ -42,6 +42,7 @@ driver.find_element(By.NAME,"DOB").click()
 
 #approach 3 - javascript
 driver.execute_script("document.querySelector('#bill-date-long').value='11/09/2000'")
+# driver.execute_script("document.querySelector(\"input[name='DOB']\").value='17/06/1999'")
 
 #ele1= driver.find_element(By.XPATH,"//input[@name='DOB']")
 #driver.execute_script("arguements[0].value='11/09/2000'", ele1)
